@@ -45,7 +45,7 @@ body{
 	cursor: pointer;
 }
 .search button img{
-	width: 16px;
+	width: 20px;
 }
 .weather-icon
 {
@@ -94,3 +94,67 @@ body{
 	margin-top: 10px;
 	display: none;
 }
+@media only screen and (max-width: 600px) {
+	.card{
+	  width: 100%;
+	  padding: 20px 15px;
+	}
+	.search input{
+	  padding: 5px 15px;
+	  height: 40px;
+	  font-size: 14px;
+	}
+	.search button{
+	  width: 40px;
+	  height: 40px;
+	}
+	.weather-icon{
+	  width: 100px;
+	}
+	.weather h1{
+	  font-size: 40px;
+	}
+	.weather h2{
+	  font-size: 22px;
+	}
+	.col{
+	  margin-bottom: 10px;
+	}
+	.col img{
+	  width: 20px;
+	}
+	.humidity, .wind{
+	  font-size: 14px;
+	}
+  }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+	.card{
+	  width: 80%;
+	}
+	.search input{
+	  padding: 7px 20px;
+	  height: 50px;
+	  font-size: 16px;
+	}
+	.search button{
+	  width: 50px;
+	  height: 50px;
+	}
+	.weather-icon{
+	  width: 130px;
+	}
+	.weather h1{
+	  font-size: 60px;
+	}
+	.weather h2{
+	  font-size: 30px;
+	}
+	.col img{
+	  width: 30px;
+	}
+	.humidity, .wind{
+	  font-size: 20px;
+	}
+  }
+
+
